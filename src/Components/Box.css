@@ -1,0 +1,57 @@
+/* button {
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    padding: 10px 20px; 
+    background-color: inherit; 
+    color: #fff; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px;
+} */
+.box-head{
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    font-size: 3rem;
+   color:  #00008B;
+   text-transform: uppercase;
+}
+.btnBox {
+    margin-left: 10%;
+    margin-top: 10%;
+    background: #ffde81;
+    /* color:; */
+}
+/* insightToolBox .insightToolCard .topBox {
+    margin-bottom: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+} */
+.topBox src{
+    size:10ch;
+    
+}
+/* .buttonStyle{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 16px;
+    background-color: color;
+    color: #fff;
+   border: 3px solid black;
+   border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+  } */
+  @media (max-width: 768px) {
+    .insightBody {
+      flex-direction: column;
+      align-items: center;
+    }
+}

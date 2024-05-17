@@ -1,0 +1,189 @@
+/* .hero-section{
+     
+
+} */
+.full-screen-video {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* Ensure the video is behind other content */
+}
+
+.full-screen-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video fills the entire container */
+}
+
+
+
+.residential-box-container {
+    background-color: rgb(16, 70, 16);
+    height: 136vh;
+    width: 100%;
+}
+
+.res-head{
+    padding-top: 4rem;
+    font-weight: 800;
+}
+
+
+.residential-carouusel-heading{
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    color: bisque;
+    font-family: "Spectral SC", sans-serif;
+}
+
+
+.residential-img-responsive {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 3px;
+    filter: drop-shadow(2px 4px 6px black);
+    border-radius: 10px;
+}
+  .residential-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.residential-Card {
+    width: 600px;
+    height: 500px;
+    /* margin: 0 -10px; */
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 5px 20px rgb(255 255 255);
+    background: #fff;
+    /* transition: all 0.9s ease; */
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-left: 10%;
+    transition: transform 0.3s ease;
+}
+
+  .residential-Card:hover {
+    transform: scale(1.02); /* Scale up the card on hover */
+  }
+  
+  
+  .h2-world{
+    font-weight: 800;
+  }
+  .residential-Card p {
+    color: black;
+    font-size: 24px;
+    font-family: cursive;
+    margin-top: 30px;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+  
+  .residential-custom-item {
+    margin-right:-100px; /* Adjust as needed */
+    
+  }
+
+
+
+
+/* *******************************************amenities CSS***************************************** */
+
+
+.amenities-section {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #5F8575;
+}
+
+.heading-why-this-property h2 {
+    font-family: "Spectral SC", sans-serif;
+    color: rgb(4, 48, 4);
+    font-size: 48px;
+    margin-top: 6%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.amenities-section p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 20px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    color: #fff;
+    align-items:flex-start;
+}
+
+.amenities-list {
+    display: flex;
+    flex-direction: column; /* Stack amenity rows vertically */
+    align-items:flex-end;
+}
+.amenity-row {
+    display: flex;
+    justify-content: flex-end; /* Distribute amenities evenly within the row */
+   margin-left: 0px;
+}
+
+.heading-why-this-property h2 {
+    font-family: "Spectral SC", sans-serif;
+    color: rgb(4, 48, 4);
+    font-size: 48px;
+    margin-top: 4%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.amenity-item i, .amenity-item svg {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ffdf43;
+}
+
+.amenity-item p {
+    font-size: 12px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-family: "Spectral SC", Sans-serif;
+}
+
+
+
+/* *************************Amenites image css******************************************************* */
+
+.amenities-container {
+    display: flex;
+}
+.img-res{
+    filter: drop-shadow(2px 4px 6px white);
+    border-radius: 0px 0px 50px 0px ;
+}
+
+.amenities-image-container {
+    flex: 1;
+   
+    
+}
+
+.amenities-list {
+    flex: 1 1;
+    padding: 1rem;
+}
+
+
+
+
+
+
+

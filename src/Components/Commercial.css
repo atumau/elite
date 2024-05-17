@@ -1,0 +1,163 @@
+.commercial-background {
+    background-image: url('https://img.freepik.com/free-photo/futuristic-skyscraper-steel-glass-illuminated-night-generated-by-ai_24640-86722.jpg?t=st=1715938916~exp=1715942516~hmac=92f61b32c4c1bf8e183c562ff3f1aeb79b3089f1ec07bff0fb41d8124ed2b393&w=996'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    min-height: 100vh;
+    /* backdrop-filter: blur(50px); */
+}
+.com-head {
+  color: white;
+  font-size: 6rem;
+  font-weight: 700;
+}
+.com-sub {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.com-para {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.commercial-content-box {
+  margin-left: -27%;
+}
+  .commercial-content-heading1{
+    margin-left: 24%;
+    margin-top: 4%;
+    font-size: 200%;
+  
+  }
+  .commercial-content-heading2{
+    margin-left: 24%;
+    margin-top: 15px;
+    color:black;
+    font-size: 150%;
+  }
+  .commercial-content-para {
+    margin-bottom: 40px; /* Adjust the space between paragraph and line */
+    margin-left: 24.5%;
+    margin-top: 35px;
+    font-weight: bold;
+  }
+
+
+
+/* ******************************************box CSS Starts************************************************** */
+
+  /* .commercial-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.commercial-box {
+    width: calc(33.33% - 20px);
+    height: 200px; 
+    margin: 10px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.commercial-box img {
+  max-width: 50%;
+  max-height: 50%;
+} */
+
+
+
+
+
+
+
+.circle-container {
+  display: flex;
+  justify-content: flex-end; /* Align circles to the right */
+  align-items: center; /* Center vertically */
+  padding: 20px; /* Adjust as needed */
+}
+
+
+.commercial-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+}
+.commercial-circle-img {
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center the image */
+  overflow: hidden; /* Hide overflow content */
+  margin-top:60px ;
+ 
+  margin-bottom: 10%;
+}
+
+.commercial-circle-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: drop-shadow(2px 4px 6px black);
+  padding: 1rem;
+}
+.commercial-text-container {
+  margin-top: -10%; /* Adjust as needed */
+  padding: 0 30px; /* Adjust padding as needed */
+  text-align: center; /* Center the text */
+  width: calc(50% - 10px); /* Adjust width and margins as needed */
+  margin-right: 20px; /* Adjust margin as needed */
+}
+.commercial-text-container h2 {
+  font-size: 36px;
+  /* padding: 10px; */
+  text-align: start !important;
+}
+
+.commercial-text-container p {
+  
+    font-size: 24px;
+    line-height: 1.5;
+    color: grey;
+    text-align: justify;
+}
+
+
+
+
+
+.commercial-content-2 {
+  display: flex;
+  align-items: center;
+  margin-top: -12%;
+}
+
+.commercial-circle-img {
+  margin-left: 80px;
+  flex: 1;
+}
+
+.commercial-text-container2 {
+  flex: 1;
+  padding-left: 60px; /* Adjust the spacing between the image and text */
+  margin-right: 40px;
+  margin-top: -8%;
+}
+.commercial-text-container2 h2 {
+  font-size: 36px;
+  /* padding: 10px; */
+}
+.commercial-text-container2 p {
+  font-size: 24px; /* Adjust the font size for the paragraph */
+  line-height: 1.5;
+  color: grey;
+}
+
+

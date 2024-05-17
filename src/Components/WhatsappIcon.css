@@ -1,0 +1,12 @@
+.main-whatsapp-icon svg {
+    color: #25d366; /* WhatsApp icon color */
+    font-size: 32px; /* Adjust the icon size as needed */
+    position: fixed;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    right: 20px; /* Adjust the distance from the right */
+    font-size: 40px; /* Adjust the icon size */
+    cursor: pointer;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+}

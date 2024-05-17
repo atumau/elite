@@ -1,0 +1,117 @@
+.Officespace-background {
+    background-image: url('https://img.freepik.com/free-photo/modern-office-space-with-desktops-with-modern-computers-created-with-generative-ai-technology_185193-110089.jpg?t=st=1715946277~exp=1715949877~hmac=217d872c803d80f263f6913edf60280765dd938effac1dd0c479a949856b7a77&w=996'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-position: center; /* Center the image */
+    min-height: 100vh;
+    /* backdrop-filter: blur(50px); */
+}
+.o-h {
+  font-size: 5rem;
+  color: white;
+
+  filter: drop-shadow(2px 4px 6px black);
+}
+.o-s {
+  font-size: 2rem;
+  color: white;
+  filter: drop-shadow(2px 4px 6px black);
+}
+.office-t{
+  font-size: 24px;
+  line-height: 1.5;
+  color: grey;
+  text-align: justify;
+}
+.officespace-content-box{
+    margin-left: -15%;
+  }
+  .officespace-content-heading1 {
+    margin-left: 17%;
+    margin-top: 13%;
+    font-size: 200%;
+    color: black;
+}
+.officespace-content-heading2 {
+  margin-left: 17%;
+  margin-top: 21px;
+  color: black;
+  font-size: 150%;
+}
+  .officespace-para1{
+    margin-left: 10%;
+    color:darkslategrey;
+    margin-top: 50px;
+    font-size: 200%;
+    font-family: Georgia, serif;
+  }
+  
+  .officespace-para1-img1 {
+    margin-left: 57%;
+    margin-top: -13%;
+    /* height: 100px; */
+    filter: drop-shadow(2px 4px 6px black);
+}
+.officespace-para2{
+    margin-left: 50%;
+    margin-right:5% ;
+    font-size: 150%;
+    margin-top: 50px;
+    color:darkslategrey;
+    line-height: 1.5;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    /* max-width: 500px; */
+    padding: 30px; /* Padding around the paragraph */
+ 
+}
+.officespace-para2-img2 {
+  margin-left: 7%;
+  margin-top: -21%;
+  /* height: 50px; */
+  filter: drop-shadow(2px 4px 6px black);
+}
+.officespace-para3{
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right:30% ;
+    font-size: 150%;
+    color:darkslategrey;
+    line-height: 1.5;
+    max-width: 700px;
+    padding: 20px;
+}
+.officespace-para3-img3 {
+  margin-left: 58%;
+  margin-top: -19%;
+  margin-bottom: 5%;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.officespace-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.officespace-box {
+   
+    width: calc(33.33% - 20px);
+    height: 200px; /* Adjust height as needed */
+    margin: 10px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.officespace-box-container{
+  margin-top: 4%;
+}
+.officespace-para1-img1 img,
+.officespace-para2-img2 img,
+.officespace-para3-img3 img {
+    border-radius: 15px; /* Adjust the value as needed to control the roundness */
+}
